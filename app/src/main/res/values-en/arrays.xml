@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="persissions">
+        <item>android.permission.CAMERA</item>
+        <item>android.permission.READ_EXTERNAL_STORAGE</item>
+        <item>android.permission.WRITE_EXTERNAL_STORAGE</item>
+        <item>android.permission.ACCESS_FINE_LOCATION</item>
+        <item>android.permission.ACCESS_COARSE_LOCATION</item>
+        <item>android.permission.ACCESS_NETWORK_STATE</item>
+    </string-array>
+
+    <string-array name="persissions_value">
+        <item>应用需要拍照权限，请前往设置</item>
+        <item>应用需要存储权限，请前往设置</item>
+        <item>应用需要存储权限，请前往设置</item>
+        <item>应用需要获取位置权限，请前往设置</item>
+        <item>应用需要获取位置权限，请前往设置</item>
+    </string-array>
+
+    <string-array name="code_photo">
+        <item>+86</item>
+        <item>+1</item>
+        <item>+61</item>
+        <item>+49</item>
+        <item>+44</item>
+        <item>+33</item>
+        <item>+39</item>
+        <item>+81</item>
+        <item>+853</item>
+        <item>+65</item>
+        <item>+64</item>
+        <item>+82</item>
+        <item>+353</item>
+        <item>+31</item>
+    </string-array>
+
+    <string-array name="photo">
+        <item>Camera</item>
+        <item>Album</item>
+    </string-array>
+</resources>

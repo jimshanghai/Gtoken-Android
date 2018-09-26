@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical">
+    <RelativeLayout
+        android:id="@+id/layout_head"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_44"
+        android:background="#ffffff"
+        android:minHeight="@dimen/dp_44">
+        <LinearLayout
+            android:id="@+id/img_back"
+            android:layout_width="@dimen/dp_22"
+            android:gravity="center"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginBottom="@dimen/dp_12"
+            android:layout_marginLeft="@dimen/dp_16"
+            android:layout_height="match_parent">
+            <ImageView
+                android:layout_width="@dimen/dp_22"
+                android:layout_height="@dimen/dp_22"
+                android:src="@drawable/back_icon" />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="下载Keystore"
+            android:textColor="#333333"
+            android:textSize="@dimen/sp_18" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/layout_download"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_119"
+        android:background="@drawable/layout_bg_round">
+        <ImageView
+            android:id="@+id/img_down"
+            android:layout_width="@dimen/dp_47"
+            android:layout_height="@dimen/dp_47"
+            android:layout_centerVertical="true"
+            android:src="@drawable/down_key"
+            android:layout_marginRight="@dimen/dp_16"
+            />
+        <ImageView
+            android:layout_width="@dimen/dp_10"
+            android:layout_height="@dimen/dp_20"
+            android:src="@drawable/go_p"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"/>
+        
+        <TextView
+            android:layout_toRightOf="@id/img_down"
+            android:layout_width="150dp"
+            android:layout_height="25dp"
+            android:text="直接下载Keystore"
+            android:textColor="#ff686869"
+            android:textSize="18sp"
+            android:layout_centerVertical="true"
+            />
+        
+    </RelativeLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/dp_20"
+        android:text="说明：Keystore文件加上Keystore秘钥，就能管理您Gongga钱包。请务必妥善保存。"
+        />
+
+    <RelativeLayout
+        android:id="@+id/layout_download_afset"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_119"
+        android:visibility="gone"
+        android:background="@drawable/layout_bg_round">
+        <ImageView
+            android:id="@+id/img_down_set"
+            android:layout_width="@dimen/dp_47"
+            android:layout_height="@dimen/dp_47"
+            android:layout_centerVertical="true"
+            android:src="@drawable/set_down"
+            android:layout_marginRight="@dimen/dp_16"
+            />
+        <ImageView
+            android:layout_width="@dimen/dp_10"
+            android:layout_height="@dimen/dp_20"
+            android:src="@drawable/go_p"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"/>
+
+        <TextView
+            android:layout_toRightOf="@id/img_down_set"
+            android:layout_width="150dp"
+            android:layout_height="25dp"
+            android:text="设置密码后下载Keystore"
+            android:textColor="#ff686869"
+            android:textSize="18sp"
+            android:layout_centerVertical="true"
+            />
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/layout_setting"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_119"
+        android:visibility="gone"
+        android:background="@drawable/layout_bg_round">
+        <ImageView
+            android:id="@+id/img_set"
+            android:layout_width="@dimen/dp_47"
+            android:layout_height="@dimen/dp_47"
+            android:layout_centerVertical="true"
+            android:src="@drawable/reset_down"
+            android:layout_marginRight="@dimen/dp_16"
+            />
+        <ImageView
+            android:layout_width="@dimen/dp_10"
+            android:layout_height="@dimen/dp_20"
+            android:src="@drawable/go_p"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"/>
+
+        <TextView
+            android:layout_toRightOf="@id/img_set"
+            android:layout_width="150dp"
+            android:layout_height="25dp"
+            android:text="修改Keystore密码"
+            android:textColor="#ff686869"
+            android:textSize="18sp"
+            android:layout_centerVertical="true"
+            />
+
+    </RelativeLayout>
+
+</LinearLayout>

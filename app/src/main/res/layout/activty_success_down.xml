@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:fitsSystemWindows="true"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+        android:minHeight="?actionBarSize">
+
+        <LinearLayout
+            android:id="@+id/img_back"
+            android:layout_width="@dimen/dp_22"
+            android:gravity="center"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginBottom="@dimen/dp_12"
+            android:layout_marginLeft="@dimen/dp_16"
+            android:layout_height="match_parent">
+            <ImageView
+                android:layout_width="@dimen/dp_22"
+                android:layout_height="@dimen/dp_22"
+                android:src="@drawable/back_icon" />
+
+        </LinearLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="下载Keystore成功"
+            android:textColor="#333333"
+            android:textSize="@dimen/sp_16" />
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <ImageView
+            android:layout_width="@dimen/dp_156"
+            android:layout_height="@dimen/dp_111"
+            android:src="@drawable/success_down"
+
+            />
+
+        <TextView
+            android:layout_width="186dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dp_31"
+            android:text="下载Keystore成功！"
+            android:textColor="#ff6592f6"
+            android:textSize="20sp"
+            />
+
+        <TextView
+            android:layout_width="315dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dp_17"
+            android:text="请妥善保管好您的 Keystore 文件以及密码，一旦忘记密码，那么你就失去了 Keystore 的使用权及你的区块链账号的管理权，并且 GToken 平台无法帮你找回密码。 "
+            android:textColor="#ffa5a6a7"
+            android:textSize="14sp"
+            />
+    </LinearLayout>
+
+</LinearLayout>

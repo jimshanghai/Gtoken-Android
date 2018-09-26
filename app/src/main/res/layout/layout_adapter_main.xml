@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/dp_110"
+    android:fitsSystemWindows="true"
+    android:background="@drawable/layout_bg_round">
+    <com.netban.edc.wallet.view.widget.RoundImageView
+        android:id="@+id/img_icon"
+        android:layout_width="@dimen/dp_56"
+        android:layout_height="@dimen/dp_56"
+        app:type="circle"
+        android:layout_centerVertical="true"
+        android:src="@mipmap/ic_launcher"
+        />
+    <TextView
+        android:id="@+id/tv_number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="4.125 个"
+        android:textColor="#fff99b47"
+        android:textSize="18sp"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        />
+    <TextView
+        android:id="@+id/tv_name_college"
+        android:layout_toLeftOf="@id/tv_number"
+        android:layout_toRightOf="@id/img_icon"
+        android:layout_marginLeft="@dimen/dp_8"
+        android:layout_marginRight="@dimen/dp_8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:text="EDC教育链学币"
+        android:textColor="#ff2a2a2a"
+        android:textSize="14sp"
+        />
+
+
+
+</RelativeLayout>

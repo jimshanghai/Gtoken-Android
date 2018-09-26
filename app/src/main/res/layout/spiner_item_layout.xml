@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:fitsSystemWindows="true"
+    android:id="@+id/view_root"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal">
+    <com.netban.edc.wallet.view.widget.RoundImageView
+        android:id="@+id/img_avater"
+        android:layout_width="@dimen/dp_24"
+        android:layout_height="@dimen/dp_24"
+        app:type="circle"
+        android:layout_marginLeft="@dimen/dp_16"
+        android:layout_marginRight="@dimen/dp_8"
+        android:src="@mipmap/ic_launcher"/>
+    <TextView
+        android:id="@+id/tv_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="EDC教育链学币"
+        android:layout_marginRight="@dimen/dp_11"
+        android:gravity="center_vertical"
+        android:minHeight="@dimen/dp_42"
+        android:textSize="@dimen/sp_14"
+        android:textColor="#777777"/>
+</LinearLayout>

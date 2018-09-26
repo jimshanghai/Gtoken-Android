@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical"
+    android:background="#ffffff">
+    <RelativeLayout
+        android:id="@+id/layout_head"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_44"
+        android:background="#ffffff"
+        android:minHeight="@dimen/dp_44">
+        <LinearLayout
+            android:id="@+id/img_back"
+            android:layout_width="@dimen/dp_22"
+            android:gravity="center"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginBottom="@dimen/dp_12"
+            android:layout_marginLeft="@dimen/dp_16"
+            android:layout_height="match_parent">
+            <ImageView
+                android:layout_width="@dimen/dp_22"
+                android:layout_height="@dimen/dp_22"
+                android:src="@drawable/back_icon" />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="管理Keystore及秘钥"
+            android:textColor="#333333"
+            android:textSize="@dimen/sp_18" />
+    </RelativeLayout>
+    <LinearLayout
+        android:id="@+id/layout_download"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_177"
+        android:layout_marginLeft="@dimen/dp_20"
+        android:layout_marginRight="@dimen/dp_20"
+        android:background="@drawable/layout_bg_round"
+        android:orientation="horizontal"
+        >
+        
+        <ImageView
+            android:layout_width="@dimen/dp_83"
+            android:layout_height="@dimen/dp_84"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/manager_icon"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="@dimen/dp_18"
+            android:layout_marginTop="@dimen/dp_8"
+            android:layout_gravity="center_vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="管理Keystore"
+                android:textColor="#ff686869"
+                android:textSize="@dimen/sp_18"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Keystore 文件是Gongga钱包存储公钥的一种文件格式 (JSON)。Keystore+密码能登录你的区块链账号。"
+                android:textColor="#ffa5a6a7"
+                android:textSize="@dimen/sp_14"
+                />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layout_copy"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_177"
+        android:layout_marginLeft="@dimen/dp_20"
+        android:layout_marginRight="@dimen/dp_20"
+        android:background="@drawable/layout_bg_round"
+        android:orientation="horizontal"
+        >
+
+        <ImageView
+            android:layout_width="@dimen/dp_83"
+            android:layout_height="@dimen/dp_84"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/ys_manager"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="@dimen/dp_18"
+            android:layout_marginTop="@dimen/dp_8"
+            android:layout_gravity="center_vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="复制私钥"
+                android:textColor="#ff686869"
+                android:textSize="@dimen/sp_18"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="私钥是由Keystore+您的密码生成的，可以直接登录你的区块链账号，必须严格保密，不能让他人看见或复制。"
+                android:textColor="#ffa5a6a7"
+                android:textSize="@dimen/sp_14"
+                />
+        </LinearLayout>
+    </LinearLayout>
+
+
+</LinearLayout>

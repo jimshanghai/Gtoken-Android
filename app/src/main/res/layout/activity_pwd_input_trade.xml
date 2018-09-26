@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical">
+    <include layout="@layout/layout_toolbar"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#ffffff"
+        android:padding="@dimen/dp_20">
+        <TextView
+            android:id="@+id/tv_pwd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/notify_pwd_input"
+            android:textColor="#ff292929"
+            android:textSize="@dimen/sp_16"
+            />
+        <EditText
+            android:id="@+id/et_pwd_trade"
+            android:layout_marginTop="@dimen/dp_16"
+            android:layout_below="@id/tv_pwd"
+            android:textColor="#ff777777"
+            android:inputType="textPassword"
+            android:textSize="@dimen/sp_14"
+            android:hint="@string/notify_pwd_input"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/shap_gray_input"
+            />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true">
+            <com.netban.edc.wallet.view.widget.NoneButton
+                android:id="@+id/btn_next"
+                android:layout_width="@dimen/dp_68"
+                android:layout_height="@dimen/dp_36"
+                android:background="@drawable/shap_btn_login_normal"
+                android:text="@string/next_btn_trade"
+                android:textColor="#ffffff"
+                android:textSize="@dimen/sp_16"
+                />
+
+            <com.netban.edc.wallet.view.widget.NoneButton
+                android:id="@+id/btn_cancle"
+                android:layout_width="@dimen/dp_68"
+                android:layout_height="@dimen/dp_36"
+                android:background="@drawable/shap_none_btn"
+                android:text="@string/cancle_btn_trade"
+                android:textColor="#777777"
+                android:layout_marginLeft="@dimen/dp_17"
+                android:textSize="@dimen/sp_16"
+                />
+
+        </LinearLayout>
+    </RelativeLayout>
+
+</LinearLayout>

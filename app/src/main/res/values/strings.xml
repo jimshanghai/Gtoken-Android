@@ -1,0 +1,254 @@
+<resources>
+    <string name="app_name">Gtoken</string>
+    <!--登录-->
+    <string name="account_hint_login">Mobile phone or Account name or Email</string>
+    <string name="pwd_hint_login">Password</string>
+    <string name="login_login">LOGIN</string>
+    <string name="keystore_login">I already have Keystore of Ethernet standard, to log in.</string>
+    <string name="secret_key_login">I have a private key to log in.</string>
+    <string name="pwd_regit_login">Forget your password?</string>
+    <string name="register_login">Register</string>
+
+    <!--忘记密码-->
+    <string name="title_pwd_forget">Forget password</string>
+    <string name="hint_phone_pwd_forget">Enter your cell phone number</string>
+    <string name="hint_email_pwd_forget">Enter your Email</string>
+    <string name="hint_vercode_pwd_forget">Verification code</string>
+    <string name="hint_new_pwd_forget">Set new password</string>
+    <string name="hint_ennew_pwd_forget">Comfirm new password</string>
+    <string name="submit_vercode_btn">Get</string>
+    <string name="ensure_pwd_forget">log in</string>
+    <string name="register_pwd_forget">Not a member yet？Register</string>
+    <string name="error_inconsistent_input_pwd">The two password is inconsistent.</string>
+    <string name="success_amend_pwd">Amend success</string>
+    <string name="email_usered_reset">Email>></string>
+    <string name="phone_usered_reset">Phone>></string>
+    <!--注册-->
+    <string name="title_register">Register</string>
+    <string name="title_keystore_register">Bind user information</string>
+    <string name="select_keystore_register">Select keystore</string>
+    <string name="hint_phone_register">Enter cell phone number</string>
+    <string name="hint_email_register">Enter Email</string>
+    <string name="hint_vercode_register">Verification code</string>
+    <string name="title_pwd_register">Gtoken password</string>
+    <string name="set_pwd_register">your Gtoken password</string>
+    <string name="hint_pwd_register">your Gtoken password</string>
+    <string name="hint_enpwd_register">Reinput Gtoken password</string>
+    <string name="hint_name_register">Name</string>
+    <string name="submit_btn_register">Get verification code</string>
+    <string name="notify_name_register"></string>
+    <string name="notify_sex_register"></string>
+    <string name="man_register">Male</string>
+    <string name="woman_register">Female</string>
+    <string name="ensure_register">SUBMIT</string>
+    <string name="notify_register">I have read and accepted the copyright statement and privacy protection.</string>
+    <string name="success_register">Success!</string>
+    <string name="fail_register">Success!</string>
+    <string name="success_send_register">Send Success！</string>
+    <string name="minnum_pwd">The password is at least six bits</string>
+    <string name="address_keystore_register">Your token address is:</string>
+    <string name="info_bind_register">Bind user information</string>
+    <!--主页-->
+    <string name="title_home_main">@null</string>
+    <string name="title_search_main">@null</string>
+    <string name="title_personal_main">@null</string>
+
+    <!--资产-->
+    <string name="title_home">Gtoken Wallet</string>
+    <string name="number_home">Number：</string>
+    <string name="title_notify_camera_home">NOTIFY</string>
+    <string name="msg_notify_camera_home">You need to take photos, otherwise you can't scan code.</string>
+
+
+    <!--发现-->
+    <string name="title_search">Browser</string>
+    <!--我-->
+    <string name="title_personal">My account</string>
+    <string name="number_person">Number：</string>
+    <string name="keystore_manager_person">Manage Keystore &amp; Password</string>
+    <string name="contracts_person">Contacts</string>
+    <string name="pwd_login_person">Change Gtoken login password</string>
+    <string name="pwd_trade_person">Set up transaction password</string>
+    <string name="center_person">Personal data</string>
+    <string name="title_person_date">Personal data</string>
+    <string name="hint_name_person_date">Please input your name</string>
+    <string name="submit_person_date">submit</string>
+    <string name="notify_names_update">Nicknames must not be empty.</string>
+    <string name="numbers_person">Number</string>
+    <!--交易明细-->
+
+    <!--list-->
+    <string name="remark_list_trade">Remark：</string>
+    <string name="txhash_list_trade">TxHash：</string>
+    <string name="balance_list_trade">Balance:</string>
+    <string name="no_more_data_list_trade">No more data</string>
+    <string name="title_details_trade">Transactions</string>
+    <string name="unit_trade"></string>
+    <string name="balance_trade">Balance</string>
+    <string name="record_nothing_trade">No transaction record</string>
+    <string name="out_trade">Send</string>
+    <string name="in_trade">Recieve</string>
+    <!--send-->
+    <string name="details_send_trade">Send details</string>
+    <string name="address_account_trade">Reciever account number or address</string>
+    <string name="hint_address_account_trade">Enter the reciever account or 0x… address</string>
+    <string name="num_out_trade">Transfer amount</string>
+    <string name="hint_num_out_trade">Please Input the amount of token transfer</string>
+    <string name="notify_balance_trade">Your Balance: </string>
+    <string name="remark_trade">Remark</string>
+    <string name="hint_remark_trade">Please input remark (within 30 words).</string>
+    <string name="next_btn_trade">NEXT</string>
+    <string name="cancle_btn_trade">CANCEL</string>
+    <string name="notify_insufficient">Insufficient Balance</string>
+    <string name="error_account">No search account</string>
+    <string name="hint_search_list_trade">Input and search</string>
+    <string name="amount_list_trade">Amount: </string>
+    <string name="success_status_trade">Trading status: success</string>
+    <string name="confirmation_status_trade">Trading status: confirmation</string>
+    <string name="to_submitted_status_trade">Trading status: to be submitted</string>
+    <string name="failure_status_trade">Trading status: failure</string>
+    <string name="details_ensure_send_trade">Transfer details</string>
+    <string name="time_ensure_send_trade">Transfer time：</string>
+    <string name="confirm_ensure_send_trade">Confirm</string>
+    <string name="balance_your">Your Balance:</string>
+    <string name="title_pwd_input">Input PassWord</string>
+    <string name="notify_pwd_input">Transfer PassWord</string>
+    <!--recieve-->
+    <string name="title_recieve_trade">Recieve</string>
+    <string name="header_recieve_trade">Scan the QR code to send me token</string>
+    <string name="notify_recieve_trade">You can click Scan icon on the main page, scan the QR code to send me token, or you can enter my account number </string>
+    <string name="account_recieve_trade">My account number</string>
+    <string name="copy_recieve_trade">COPY</string>
+    <string name="success_copy_recieve_trade">SUCCESS！</string>
+
+    <string name="title_data_personal">Personal data</string>
+    <string name="avatar_data_personal">Avatar</string>
+    <string name="name_data_personal">Name</string>
+    <string name="phoner_data_personal">Mobile phone</string>
+    <string name="email_data_personal">Email</string>
+    <string name="exit_system">Exit</string>
+
+    <string name="success_save_data_personal">Success!</string>
+    <string name="fail_save_data_personal">Fail!</string>
+
+    <!--qrcode-->
+    <string name="error_qrcode">Wrong Code</string>
+
+    <string name="required">*Required</string>
+    <string name="notify_required">*There is a required item.</string>
+    <string name="checked_required">*Check options exist</string>
+    <string name="token_select_scan">Choose transfer token account</string>
+    <string name="num_send_scan">Amount to send</string>
+    <string name="hint_num_send_scan">Input the aomunt of token transfer</string>
+    <string name="balance_your_scan">Available Balance: </string>
+
+
+    <!--Contacts-->
+    <string name="title_contacts">Contacts</string>
+    <string name="title_contacts_recent">Recent</string>
+    <string name="none_contacts">No contacts</string>
+    <string name="title_add_contacts">Add contacts</string>
+    <string name="account_contacts">Account</string>
+    <string name="hint_account_contacts">Input the account number you want to add</string>
+    <string name="remark_contacts">Remark</string>
+    <string name="hint_remark_contacts">Please enter remark (within 10 words)</string>
+    <string name="add_btn_contacts">Confirm to add</string>
+    <string name="ensure_btn">OK</string>
+    <string name="msg_exit_system">Do you want to withdraw from the current account?</string>
+
+
+
+
+
+
+
+
+    <string name="title_groom">Recommendation</string>
+    <string name="name_groom">Name</string>
+    <string name="numbers_groom">Account</string>
+    <string name="time_groom">Join Time</string>
+
+
+
+    <!--trade notify dialog-->
+    <string name="title_ensure_dia_trade">The transfer application has been submitted.</string>
+    <string name="msg_ensure_dia_trade">Your application for transfer has been submitted. Please check it later.</string>
+    <string name="ensure_btn_dia_trade">OK</string>
+    <string name="title_fail_dia_trade">operation failed</string>
+    <string name="msg_fail_dia_trade">Your trading operation failed. Please apply again.</string>
+
+
+    <string name="msg_token_dia">Token has expired. Please login again.</string>
+
+    <string name="error_request">Request an error</string>
+    <string name="error_parse">parse errorr</string>
+    <string name="error_connect_server">Failed to connect to server</string>
+    <string name="error_validation">Certificate validation failed</string>
+    <string name="error_network">Please check with network</string>
+    <string name="success_add">Success</string>
+    <string name="delete_contacts">Delete</string>
+
+    <string name="gonga_address">Gongga Address</string>
+    <string name="error_format_file">File format is not correct.</string>
+
+    <!--keystore register login-->
+    <string name="title_upload_keystore">Upload Keystore files</string>
+    <string name="keystore_upload">Upload Keystore</string>
+    <string name="copy_keystore_upload">Copy from elsewhere</string>
+    <string name="hint_keystore_upload">The Keystore file should be the Ethernet format.</string>
+    <string name="or_keystore_upload">OR</string>
+    <string name="title_show_keystore">KeyStore Info</string>
+    <string name="your_keystore">Your KeyStore:</string>
+    <string name="msg_dia_keystore_show">Bind user information</string>
+    <string name="phone_type_register">Mobile phone</string>
+    <string name="email_type_register">Email</string>
+    <string name="storage_address_keystore">Address:</string>
+    <string name="msg_copy_keystore">Copy keystore?</string>
+    <string name="ok_copy_keystore">Copy</string>
+    <string name="format_keystore">Format</string>
+    <!--keystore bind-->
+    <string name="title_bind_keystore">Bind user information</string>
+    <string name="address_bind_keystore">Your token address is:</string>
+    <string name="notify_name_bind_keystore">input your name</string>
+    <string name="hint_name_bind_keystore">Please input your name</string>
+    <string name="submit_bind_keystore">SUBMIT</string>
+    <string name="law_bind_keystore">I have read and accepted the copyright statement and privacy protection.</string>
+
+
+    <string name="msg_bind_dia">You can bind a mobile phone or email number and set up a Gongga password, and then you can manage your assets using Gongga account.</string>
+    <string name="title_bind_dia">Notify</string>
+    <string name="ensure_bind_dia">Go</string>
+
+
+    <string name="ensure_btn_contacts">Ensure</string>
+    <string name="upload_ensure_btn_contacts">Ensure</string>
+
+    <string name="title_ensure_dia">Notify</string>
+    <string name="msg_success_dia">Success</string>
+    <string name="notify_pwd_keystore_show">keystore Password:</string>
+    <string name="hint_pwd_keystore_show">input keystore Password</string>
+    <string name="qing">Email</string>
+
+
+    <string name="title_name_amend">User Name</string>
+    <string name="title_phone_amend">Phone</string>
+    <string name="title_email_amend">Email</string>
+
+
+    <!--io-->
+    <string name="error_read">Read failed, please try again.</string>
+
+
+    <string name="title_download">Update</string>
+    <string name="msg_download">The new version is online. Is it updated now?</string>
+    <string name="force_msg_download">The new version changes greatly and needs to be updated.</string>
+    <string name="ok_download">Download</string>
+
+    <string name="keystore_notify">我已有Keystore，去登录</string>
+    <string name="secret_key">我已有秘钥，去登录</string>
+    <string name="down_notify">
+    <u>
+        Keystore 文件是Gongga钱包存储私钥的一种文件格式 (JSON)。它使用用户自定义密码加密，以起到一定程度上的保护作用，而保护的程度取决于用户加密该钱包的密码强度，如果类似于 123456 这样的密码，是极为不安全的。%d%d 在使用 Keystore 时有两点需要注意：%d 1. 使用不常用，并且尽可能复杂的密码加密 Keystore 文件；%d 2. 一定要记住加密 Keystore 的密码，一旦忘记密码，那么你就失去了 Keystore 的使用权，并且 Gtoken 无法帮你找回密码，所以一定要妥善保管好 Keystore 以及密码。
+    </u>
+    </string>
+</resources>

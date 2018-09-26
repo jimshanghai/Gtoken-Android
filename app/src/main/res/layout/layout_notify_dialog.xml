@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/shap_notify_dia"
+    android:layout_gravity="center"
+    android:fitsSystemWindows="true"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout
+        android:id="@+id/layout_head"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="#F4F6FE"
+        >
+
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_centerVertical="true"
+            android:minHeight="@dimen/dp_50"
+            android:textColor="#ff292929"
+            android:textSize="@dimen/sp_16"
+            />
+
+        <ImageView
+            android:id="@+id/img_cancle"
+            android:layout_width="@dimen/dp_17"
+            android:layout_height="@dimen/dp_17"
+            android:layout_marginRight="@dimen/dp_16"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:gravity="center"
+            android:textSize="@dimen/sp_20"
+            android:src="@drawable/cancle_icon"/>
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/tv_msg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="@dimen/dp_100"
+        android:textColor="#ff737373"
+        android:textSize="@dimen/sp_16"
+        android:gravity="center"
+        android:paddingRight="@dimen/dp_16"
+        android:paddingLeft="@dimen/dp_16"
+        android:paddingTop="@dimen/dp_18"
+        android:paddingBottom="@dimen/dp_16"
+        android:layout_below="@id/layout_head"
+        android:layout_centerInParent="true"
+        />
+    <View
+        android:id="@+id/line"
+        android:layout_below="@id/tv_msg"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_1"
+        android:background="@android:color/darker_gray"/>
+
+    <Button
+        android:id="@+id/btn_ensure"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_50"
+        android:background="@null"
+        android:layout_below="@id/line"
+        android:layout_centerHorizontal="true"
+        android:textSize="@dimen/sp_16"
+        android:textColor="#777777"
+        android:text="@string/ensure_btn_dia_trade"
+        />
+
+</RelativeLayout>

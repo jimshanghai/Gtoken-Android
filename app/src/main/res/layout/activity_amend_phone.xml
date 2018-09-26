@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F0F3F9"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_44"
+        android:background="#ffffff"
+        android:minHeight="@dimen/dp_44">
+
+        <LinearLayout
+            android:id="@+id/img_back"
+            android:layout_width="@dimen/dp_22"
+            android:gravity="center"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginBottom="@dimen/dp_12"
+            android:layout_marginLeft="@dimen/dp_16"
+            android:layout_height="match_parent">
+            <ImageView
+                android:layout_width="@dimen/dp_22"
+                android:layout_height="@dimen/dp_22"
+                android:src="@drawable/back_icon" />
+
+        </LinearLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#333333"
+            android:layout_centerInParent="true"
+            android:text="@string/title_phone_amend"
+            android:textSize="@dimen/sp_16"
+            />
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/dp_30"
+                android:layout_marginRight="@dimen/dp_30"
+                android:layout_marginTop="@dimen/dp_60"
+                android:background="#ffffff"
+                android:gravity="center_vertical"
+                android:minHeight="@dimen/dp_44"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="@dimen/dp_14"
+                    android:layout_height="@dimen/dp_15"
+                    android:layout_marginLeft="@dimen/dp_23"
+                    android:src="@drawable/photo_icon" />
+
+                <Spinner
+                    android:id="@+id/spinner_code_photo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/dp_12"
+                    android:entries="@array/code_photo" />
+
+                <View
+                    android:layout_width="@dimen/dp_1"
+                    android:layout_height="@dimen/dp_28"
+                    android:layout_marginLeft="@dimen/dp_10"
+                    android:background="#ffdad9e2" />
+
+                <EditText
+                    android:id="@+id/et_phone"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/sp_14"
+                    android:inputType="text"
+                    android:hint="@string/hint_phone_register"
+                    android:layout_marginLeft="@dimen/dp_8"
+                    android:textColorHint="#777777"
+                    android:background="@drawable/shap_et_input_normal" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/dp_30"
+                android:layout_marginRight="@dimen/dp_30"
+                android:layout_marginTop="@dimen/dp_8"
+                android:background="#ffffff"
+                android:gravity="center_vertical"
+                android:minHeight="@dimen/dp_44"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="@dimen/dp_14"
+                    android:layout_height="@dimen/dp_15"
+                    android:layout_marginLeft="@dimen/dp_23"
+                    android:src="@drawable/ensure_icon" />
+
+                <EditText
+                    android:id="@+id/et_code_ver"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textSize="@dimen/sp_14"
+                    android:inputType="text"
+                    android:hint="@string/hint_vercode_register"
+                    android:layout_marginLeft="@dimen/dp_8"
+                    android:textColorHint="#777777"
+                    android:background="@drawable/shap_et_input_normal" />
+
+                <com.netban.edc.wallet.view.widget.NoneButton
+                    android:id="@+id/btn_code_ver"
+                    android:layout_width="@dimen/dp_96"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/selector_btn_common"
+                    android:text="@string/submit_vercode_btn"
+                    android:maxLines="1"
+                    android:textSize="@dimen/sp_14"
+                    android:textColor="#ffffff" />
+            </LinearLayout>
+            <com.netban.edc.wallet.view.widget.NoneButton
+                android:id="@+id/btn_subject"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dp_48"
+                android:text="@string/ensure_register"
+                android:textColor="#ffffff"
+                android:layout_marginLeft="@dimen/dp_30"
+                android:layout_marginRight="@dimen/dp_30"
+                android:background="@drawable/shap_btn_login_normal"
+                android:layout_marginTop="@dimen/dp_24"/>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

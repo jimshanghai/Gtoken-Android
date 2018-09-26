@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F0F3F9"
+    android:fitsSystemWindows="true">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/img_logo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="@dimen/dp_29"
+            android:layout_marginTop="94dp"
+            android:minHeight="@dimen/dp_109"
+            android:minWidth="@dimen/dp_118"
+            android:src="@drawable/logo_icon" />
+
+        <RelativeLayout
+            android:id="@+id/layout_main"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/img_logo"
+            android:layout_marginLeft="@dimen/dp_30"
+            android:layout_marginRight="@dimen/dp_30">
+
+            <EditText
+                android:id="@+id/et_account"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/shap_et_input_normal"
+                android:drawablePadding="@dimen/dp_18"
+                android:hint="@string/account_hint_login"
+                android:inputType="text"
+                android:textColorHint="#777777" />
+
+            <EditText
+                android:id="@+id/et_pwd"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/et_account"
+                android:layout_marginTop="@dimen/dp_8"
+                android:background="@drawable/shap_et_input_normal"
+                android:drawablePadding="@dimen/dp_18"
+                android:hint="@string/pwd_hint_login"
+                android:inputType="textPassword"
+                android:textColorHint="#777777" />
+
+            <com.netban.edc.wallet.view.widget.NoneButton
+                android:id="@+id/btn_login"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dp_48"
+                android:layout_below="@id/et_pwd"
+                android:layout_marginTop="@dimen/dp_32"
+                android:background="@drawable/shap_btn_login_normal"
+                android:text="@string/login_login"
+                android:textColor="#ffffff" />
+
+            <LinearLayout
+                android:id="@+id/layout_common"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_below="@id/btn_login"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="@dimen/dp_22"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/tv_pwd_reset"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="left|center_vertical"
+                    android:maxWidth="@dimen/dp_100"
+                    android:text="@string/pwd_regit_login"
+                    android:textColor="#5A86F4"
+                    android:textSize="@dimen/sp_16" />
+
+                <TextView
+                    android:id="@+id/tv_regist"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:autoLink="all"
+                    android:gravity="right|center_vertical"
+                    android:maxWidth="@dimen/dp_100"
+                    android:text="@string/register_login"
+                    android:textColor="#5A86F4"
+                    android:textSize="@dimen/sp_16" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/tv_keystore"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_below="@id/layout_common"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="@dimen/dp_20"
+                android:layout_marginTop="@dimen/dp_100"
+                android:gravity="center"
+                android:text="@string/keystore_login"
+                android:textColor="#BBBBC7"
+                android:textSize="@dimen/sp_16"
+                android:visibility="visible" />
+
+            <TextView
+                android:id="@+id/tv_secret"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_below="@id/tv_keystore"
+                android:gravity="right"
+                android:text="@string/secret_key_login"
+                android:textColor="#BBBBC7"
+                android:textSize="@dimen/sp_16"
+                android:visibility="gone" />
+        </RelativeLayout>
+
+    </RelativeLayout>
+</ScrollView>
